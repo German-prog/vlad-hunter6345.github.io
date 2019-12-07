@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="homework-4.css">
+</head>
+<body>
+    <p class="text">MART</p>
+    <div class="viv">
+<a href="" style="color: rgb(22, 192, 155);">HOME</a>
+<a href="">UBCUT US</a>
+<a href="">PAGE</a>
+<a href="">SHOP</a>
+<a href="">BLOG</a>
+<a href="">CONTACT US</a>
+    </div>
+    <p class="fry">FEATURED PRODUCTS</p>
+    <h2></h2>
+<div class="par1"></div>
+</body>
+</html>
+.text{
+  display: inline-block;
+font-size: 30px;
+color: grey;
+margin: 50px 262px;
+}
+.text::first-letter {
+    color: rgb(22, 192, 155);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Puritan', sans-serif;
+  }
+  a{
+    color: black;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 15px;
+  }
+  .viv{
+    display: inline-block;
+    text-align: right; 
+ margin: 0px 220px;
+  }
+  .fry{
+    display: inline-block;
+    margin: 50px 558px;
+color: rgb(85, 84, 84);
+font-size: 40px;
+font-weight: bold;
+text-align: center;
+  }
+  h2::after{
+    content: "";
+    position: absolute;
+    top: 260px;
+    right: 700px;
+    height: 7px;
+    width: 210px;
+    background-color: #4ec6ab;
+  }
+.par1{
+  width:200px;
+  height:100px;
+  background-image: url('homework-04-1.png');
+  background-repeat: no-repeat;
+}
